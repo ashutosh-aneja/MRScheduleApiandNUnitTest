@@ -198,7 +198,7 @@ namespace MedicalRepresentativeSchedule.Repository
 
                      
                 //  client.BaseAddress = new Uri("https://localhost:44366/");
-                    client.BaseAddress = new Uri("http://40.76.174.193/");
+                    client.BaseAddress = new Uri("http://52.146.82.4/");
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                     HttpResponseMessage response = new HttpResponseMessage();
                     response = client.GetAsync("MedicineStockInformation").Result;
